@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+sse-starlette
+rank-bm25
+scikit-learn
+langgraph
+arxiv
+
+# Web search (retrieval now goes beyond arXiv). Pick one, or both:
+ddgs                 # DuckDuckGo search — free, no API key required
+# tavily-python       # optional: AI-native search API, set TAVILY_API_KEY to prefer it
+
+# Optional — enables real LLM calls instead of the offline heuristic fallback:
+anthropic
+openai
+python-dotenv
+google-generativeai
